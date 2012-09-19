@@ -41,4 +41,8 @@
   [self.slidingViewController anchorTopViewTo:ECLeft];
 }
 
+- (IBAction)showModal:(id)sender {
+  [self presentModalViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"Modal"] animated:YES];
+}
+
 @end

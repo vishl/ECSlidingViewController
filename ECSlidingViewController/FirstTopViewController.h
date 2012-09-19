@@ -17,4 +17,5 @@
 - (IBAction)revealMenu:(id)sender;
 - (IBAction)revealUnderRight:(id)sender;
 
+- (IBAction)showModal:(id)sender;
 @end
